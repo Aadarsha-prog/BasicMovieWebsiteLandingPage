@@ -1,12 +1,33 @@
-# React + Vite
+MovieLand
+A simple React application for searching and discovering movies using the OMDb API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Search movies by title.
+Displays movie posters, titles, and years.
+Responsive design.
+🚀 Get Started
+Clone the repository:
+Bash
 
-Currently, two official plugins are available:
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
+Install dependencies:
+Bash
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install # or yarn install
+Get an OMDb API Key:
+Visit omdbapi.com/apikey.aspx for a free key.
+Update API_URL in App.js with your key:
+JavaScript
 
-## Expanding the ESLint configuration
+const API_URL = 'http://www.omdbapi.com/?apikey=YOUR_OMDB_API_KEY';
+Run the app:
+Bash
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm start # or yarn start
+Opens http://localhost:3000 in your browser.
+🎬 Usage
+Type a movie title in the search bar and press Enter or click the search icon to find movies.
+
+🤝 Acknowledgements
+Powered by the OMDb API.
